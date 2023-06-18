@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="font-weight: bolder;font-size: larger;">
+    <form>
+    <h2><strong>REGISTRATION FORM</strong> </h2>
+    <label for="name">Name :</label>
+    <br>
+    <input type="text" id="name">
+    <br>
+    <br>
+    <label for="email">Email :</label>
+    <br>
+    <input type="email" id="email">
+    <br>
+    <br>
+    <label for="phone">phone :</label>
+    <br>
+    <input type="tel" id="phone">
+    <br>
+    <br>
+    <label for="f">resume :</label>
+    <br>
+    <input type="file" id="f">
+    <br><br>
+    <label for="counter">experience :</label>
+    <input type="number" name="counter" id="counter" min="0" max="50">
+    <br>
+    <br>
+    <label for="occupation">OccupationType :</label>
+    <br>
+    <select name="occupation" id="occupation">
+        <option value="student">student</option>
+        <option value="professor">professor</option>
+        <option value="other">other</option>
+    </select>
+    <br>
+    <br>
+    <fieldset>
+        <legend>topics of interest</legend>
+        <input type="checkbox" name="checkbox" id="c1">
+        <label for="c1">html</label>
+        
+        
+        <br>
+        <input type="checkbox"name="checkbox" id="c2">
+        <label for="c2">css</label>
+        
+        
+        <br>
+        <input type="checkbox" name="checkbox" id="c3">
+        <label for="c3">javascript</label>
+    
+       
+    </fieldset>
+    <br>
+    <br>
+    <fieldset>
+    <legend>Availability:</legend>
+    <label for="r1">full-time</label>
+    <input type="radio" name="radio" id="r1">
+   
+    <br>
+    <label for="r">part-time</label>
+    <input type="radio" name="radio" id="r2">
+   
+</fieldset>
+    <br>
+    <br>
+    <label for="t">comment :</label>
+    <br>
+    <textarea name="textarea" id="t" cols="50" rows="10"></textarea>
+    <button>submit</button>
+</form>
+</body>
+</html>
